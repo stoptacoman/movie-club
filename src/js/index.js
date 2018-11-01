@@ -11,7 +11,11 @@ function getMovie(weeknum) {
 
   fetch(omdbQuery)
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => {
+      let poster = new Image();
+      poster.src = data.Poster;
+      document.body.appendChild(poster);
+    })
     .catch(err => console.log(err));
 }
 
