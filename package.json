@@ -18,7 +18,9 @@
     "url": "https://github.com/stoptacoman/movie-club/issues"
   },
   "homepage": "https://github.com/stoptacoman/movie-club#readme",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
   "devDependencies": {
     "nodemon": "^1.18.5",
     "parcel-bundler": "^1.10.3"
