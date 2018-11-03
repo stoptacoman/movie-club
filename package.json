@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "parcel src/index.html"
+    "dev": "rm -rvf dist && parcel src/index.html"
   },
   "repository": {
     "type": "git",
