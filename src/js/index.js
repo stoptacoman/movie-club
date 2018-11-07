@@ -48,7 +48,7 @@ function getMovie(weeknum) {
 }
 
 function getWeek() {
-  const startDate = moment([2018, 10, 1]);
+  const startDate = moment([2018, 9, 30]);
   let now = moment();
 
   return now.diff(startDate, "weeks");
